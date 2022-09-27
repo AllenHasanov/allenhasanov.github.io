@@ -12,39 +12,26 @@
     <div class="header-mobile">
       <div class="header-mobile__container"><img class="header-mobile__close" src="img/close.svg">
         <div><img class="header-mobile__logo" src="img/logo.png">
-          <div class="header-mobile__nav"><a class="nav__link" href="#mission">Mission Strategy</a><a class="nav__link" href="#geography">Geography </a><a class="nav__link" href="#about">About us</a><a class="nav__link" href="#team">Team Structure</a><a class="nav__link" href="#vendors">Vendors</a><a class="nav__link" href="#contacts">Contacts</a></div>
+          <div class="header-mobile__nav"><a class="nav__link" href="#mission">Mission</a><a class="nav__link" href="#strategy">Strategy</a><a class="nav__link" href="#about">About us</a><a class="nav__link" href="#team">Team</a><a class="nav__link" href="#structure">Structure</a><a class="nav__link" href="#vendors">Vendors</a><a class="nav__link" href="#partners">Partners</a><a class="nav__link" href="#geography">Geography</a><a class="nav__link" href="#contacts">Contacts</a></div>
         </div>
-        <div><a class="header__btn btn" href="#contacts">Back call</a></div>
+        <div class="lang lang--mobile"><a class="lang__item lang__item--active" href="#"><img class="lang__item-flag" src="img/en.jpg">
+            <div class="lang__item-title">English</div></a><a class="lang__item" href="#"><img class="lang__item-flag" src="img/ba.png">
+            <div class="lang__item-title">Bulgarian</div></a></div>
       </div>
     </div>
     <div class="bg-color">
       <div class="header">
         <div class="container flex ai-c header__container"><a class="logo" href="#"><img src="img/logo.png"></a>
-          <div class="nav"><a class="nav__link" href="#mission">Mission Strategy</a><a class="nav__link" href="#geography">Geography </a><a class="nav__link" href="#about">About us</a><a class="nav__link" href="#team">Team Structure</a><a class="nav__link" href="#vendors">Vendors</a><a class="nav__link" href="#contacts">Contacts</a></div><a class="header__btn btn" href="#">Bulgarian</a><img class="header__burger" src="img/menu-burger.svg">
+          <div class="nav"><a class="nav__link" href="#mission">Mission</a><a class="nav__link" href="#strategy">Strategy</a><a class="nav__link" href="#about">About us</a><a class="nav__link" href="#team">Team</a><a class="nav__link" href="#structure">Structure</a><a class="nav__link" href="#vendors">Vendors</a><a class="nav__link" href="#partners">Partners</a><a class="nav__link" href="#geography">Geography</a><a class="nav__link" href="#contacts">Contacts</a></div>
+          <div class="lang"><a class="lang__item lang__item--active" href="#"><img class="lang__item-flag" src="img/en.jpg">
+              <div class="lang__item-title">English</div></a><a class="lang__item" href="#"><img class="lang__item-flag" src="img/ba.png">
+              <div class="lang__item-title">Bulgarian</div></a></div><img class="header__burger" src="img/menu-burger.svg">
         </div>
       </div>
       <div class="sphere">
         <div class="container">
           <div class="first">
             <div class="first__title">WE CONSTANTLY STRIVE FOR EXCELLENCE AND CHANGE DEPENDING ON MARKET CONDITIONS. WE WORK IN THE MARKETS OF DIY SOLUTIONS SUPPLY (COMPONENTS FOR AGRICULTURAL MACHINERY, AUTOMOTIVE PARTS AND ACCESSORIES) AND ELECTRONICS.</div>
-            <div class="advatanges">
-              <div class="advatanges__item">
-                <div class="advatanges__key">01</div>
-                <div class="advatanges__text">text</div>
-              </div>
-              <div class="advatanges__item">
-                <div class="advatanges__key">02</div>
-                <div class="advatanges__text">text</div>
-              </div>
-              <div class="advatanges__item">
-                <div class="advatanges__key">03</div>
-                <div class="advatanges__text">text                    </div>
-              </div>
-              <div class="advatanges__item">
-                <div class="advatanges__key">04</div>
-                <div class="advatanges__text">text</div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -53,13 +40,8 @@
     <div id="mission"></div>
     <div class="questions bg-beige">
       <div class="container">
-        <div class="questions__head">
-          <div class="flex ai-c"><img class="questions__head-img" src="img/logo.png">
-            <div class="questions__head-title">Title</div>
-          </div>
-          <div class="questions__head-text">Text</div>
-        </div>
         <div class="questions__wrapper">
+          <div class="questions__item"><img src="img/mission.jpg"></div>
           <div class="questions__item">
             <div class="questions__item-content">
               <div class="questions__item-head"> 
@@ -71,6 +53,13 @@
               </ul>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <div id="strategy"></div>
+    <div class="questions bg-beige" style="padding-top:0;padding-bottom:0;">
+      <div class="container">
+        <div class="questions__wrapper">
           <div class="questions__item">
             <div class="questions__item-content">
               <div class="questions__item-head"> 
@@ -87,19 +76,12 @@
               </ul>
             </div>
           </div>
+          <div class="questions__item"><img src="img/strategy.jpg"></div>
         </div>
       </div>
     </div>
     <!--* include includes/blocks/banner.pug *//-->
-    <div class="bg-beige p-60" id="geography">
-      <div class="container">
-        <div class="map">
-          <div class="map__title title">Geography of supplies</div><img class="map__img" src="img/map.jpg"><a class="map__btn btn" href="#contacts">Submit an inquiry</a>
-        </div>
-      </div>
-    </div>
     <!--* include includes/blocks/postavka.pug *//-->
-    <!--* include includes/blocks/key.pug *//-->
     <div class="bg-color" id="about">
       <div class="container p-60">
         <div class="about">
@@ -119,8 +101,10 @@
         <div class="team">
           <div class="team__title title">TEAM</div>
           <div class="team__wrapper">
-            <div class="team__item">
-              <div class="team__item-container"><img class="team__item-img" src="img/team/SergeyKirov.jpg"><a class="team__item-name" href="javascript:void(0);" data-hystmodal="#team-1"><b>Sergey Kirov</b><br>Founder and General Director</a></div>
+            <div class="team__item--full">
+              <div class="team__item">
+                <div class="team__item-container"><img class="team__item-img" src="img/team/SergeyKirov.jpg"><a class="team__item-name" href="javascript:void(0);" data-hystmodal="#team-1"><b>Sergey Kirov</b><br>Founder and General Director</a></div>
+              </div>
             </div>
             <div class="team__item">
               <div class="team__item-container"><img class="team__item-img" src="img/team/OgnianKirov.jpg"><a class="team__item-name" href="javascript:void(0);" data-hystmodal="#team-2"><b>Ognian Kirov</b><br>Commercial Director</a></div>
@@ -162,10 +146,165 @@
         </div>
       </div>
     </div>
+    <div class="bg-color p-60" id="structure">
+      <div class="container">
+        <div class="key">
+          <div class="key__title title">STRUCTURE</div>
+          <div class="key__wrapper">
+            <div class="key__item--full">
+              <div class="key__item">
+                <div class="key__item-content">
+                  <div class="key__item-head">
+                    <div class="key__item-title"><b>Sergey Kirov</b><br>General Director</div>
+                  </div>
+                  <div class="key__item-text">E-mail: SK@ogter.com</div>
+                </div>
+              </div>
+            </div>
+            <div class="key__item">
+              <div class="key__item-content">
+                <div class="key__item-head">
+                  <div class="key__item-title"><b>Ognyan Kirov</b><br>Commercial Director</div>
+                </div>
+                <div class="key__item-text">
+                  Tel. (direct city number in Sofia)<br>
+                  Mob.<br>
+                  E-mail: OK@ogter.com
+                </div>
+              </div>
+            </div>
+            <div class="key__item">
+              <div class="key__item-content">
+                <div class="key__item-head">
+                  <div class="key__item-title"><b>Gabor Sovan</b><br>Procurement Director</div>
+                </div>
+                <div class="key__item-text">
+                  Tel. (direct city number in Sofia)<br>
+                  Mob.<br>
+                  E-mail: GS@ogter.com
+                </div>
+              </div>
+            </div>
+            <div class="key__item">
+              <div class="key__item-content">
+                <div class="key__item-text">
+                  Sales department to retail chains and online stores:<br>
+                  Lubomir Lazarov<br>
+                  E-mail: LL@ogter.com
+                </div>
+              </div>
+            </div>
+            <div class="key__item">
+              <div class="key__item-content">
+                <div class="key__item-text">
+                  Procurement department:<br>
+                  Kalin Nikolov<br>
+                  E-mail: KN@ogter.com
+                </div>
+              </div>
+            </div>
+            <div class="key__item">
+              <div class="key__item-content">
+                <div class="key__item-text">
+                  Corporate sales department:<br>
+                  Ventsislav Stoykov<br>
+                  E-mail: VS@ogter.com
+                </div>
+              </div>
+            </div>
+            <div class="key__item"></div>
+            <div class="key__item">
+              <div class="key__item-content">
+                <div class="key__item-text">
+                  Financial department:<br>
+                  Luba Radeva<br>
+                  E-mail: LR@ogter.com
+                </div>
+              </div>
+            </div>
+            <div class="key__item"></div>
+            <div class="key__item">
+              <div class="key__item-content">
+                <div class="key__item-text">
+                  Logistics department:<br>
+                  Stanislav Slavov<br>
+                  E-mail: SS@ogter.com
+                </div>
+              </div>
+            </div>
+            <div class="key__item"></div>
+            <div class="key__item">
+              <div class="key__item-content">
+                <div class="key__item-text">
+                  Warehouse:<br>
+                  Dimcho Rusev<br>
+                  E-mail: DR@ogter.com
+                </div>
+              </div>
+            </div>
+            <div class="key__item"></div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="bg-beige p-30" id="vendors">
       <div class="container">
         <div class="partners">
           <div class="partners__title title">VENDORS</div>
+          <div class="partners__wrapper">
+            <div class="partners__item">
+              <div class="partners__item-bg"><img class="partners__item-img" src="img/partners/5.svg"></div>
+            </div>
+            <div class="partners__item">
+              <div class="partners__item-bg"><img class="partners__item-img" src="img/partners/5.svg"></div>
+            </div>
+            <div class="partners__item">
+              <div class="partners__item-bg"><img class="partners__item-img" src="img/partners/5.svg"></div>
+            </div>
+            <div class="partners__item">
+              <div class="partners__item-bg"><img class="partners__item-img" src="img/partners/5.svg"></div>
+            </div>
+            <div class="partners__item">
+              <div class="partners__item-bg"><img class="partners__item-img" src="img/partners/5.svg"></div>
+            </div>
+            <div class="partners__item">
+              <div class="partners__item-bg"><img class="partners__item-img" src="img/partners/5.svg"></div>
+            </div>
+            <div class="partners__item">
+              <div class="partners__item-bg"><img class="partners__item-img" src="img/partners/5.svg"></div>
+            </div>
+            <div class="partners__item">
+              <div class="partners__item-bg"><img class="partners__item-img" src="img/partners/5.svg"></div>
+            </div>
+            <div class="partners__item">
+              <div class="partners__item-bg"><img class="partners__item-img" src="img/partners/5.svg"></div>
+            </div>
+            <div class="partners__item">
+              <div class="partners__item-bg"><img class="partners__item-img" src="img/partners/5.svg"></div>
+            </div>
+            <div class="partners__item">
+              <div class="partners__item-bg"><img class="partners__item-img" src="img/partners/5.svg"></div>
+            </div>
+            <div class="partners__item">
+              <div class="partners__item-bg"><img class="partners__item-img" src="img/partners/5.svg"></div>
+            </div>
+            <div class="partners__item">
+              <div class="partners__item-bg"><img class="partners__item-img" src="img/partners/5.svg"></div>
+            </div>
+            <div class="partners__item">
+              <div class="partners__item-bg"><img class="partners__item-img" src="img/partners/5.svg"></div>
+            </div>
+            <div class="partners__item">
+              <div class="partners__item-bg"><img class="partners__item-img" src="img/partners/5.svg"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-beige p-30" id="partners">
+      <div class="container">
+        <div class="partners">
+          <div class="partners__title title">PARTNERS</div>
           <div class="partners__wrapper">
             <div class="partners__item">
               <div class="partners__item-bg"><img class="partners__item-img" src="img/partners/1.webp"></div>
@@ -183,6 +322,13 @@
               <div class="partners__item-bg"><img class="partners__item-img" src="img/partners/5.svg"></div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-beige p-60" id="geography">
+      <div class="container">
+        <div class="map">
+          <div class="map__title title">Geography of supplies</div><img class="map__img" src="img/map.jpg"><a class="map__btn btn" href="#contacts">Submit an inquiry</a>
         </div>
       </div>
     </div>
@@ -209,7 +355,7 @@
               </div>
             </div>
           </div>
-        </div><img class="contacts__ship" src="img/contacts-ship.png">
+        </div>
       </div>
     </div>
     <div class="overlay"></div>
