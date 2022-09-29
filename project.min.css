@@ -7924,6 +7924,17 @@ input {
   font-weight: 600;
 }
 
+.questions__item-key__left {
+  right: auto;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
 .questions__item-body {
   padding: 0;
   margin-top: 30px;
@@ -8026,6 +8037,7 @@ input {
   margin-right: auto;
   font-size: 30px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .map__img {
@@ -8512,7 +8524,7 @@ textarea {
 }
 
 .partners__item-bg {
-  background: #fff;
+  background: transparent;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -8533,7 +8545,14 @@ textarea {
 }
 
 .partners__item-img {
-  width: 100%;
+  width: auto;
+  max-width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .reviews__wrapper {
